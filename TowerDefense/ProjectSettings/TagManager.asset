@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Gun
+  - Axe
+  - Bullet
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Weapons
+    uniqueID: 2190630647
+    locked: 0
+  - name: Enemies
+    uniqueID: 3506967101
+    locked: 0
+  - name: Crates
+    uniqueID: 150384773
+    locked: 0
+  - name: Trees
+    uniqueID: 1780721979
+    locked: 0
+  - name: Bullets
+    uniqueID: 1794528863
+    locked: 0
+  - name: Player
+    uniqueID: 3370199549
+    locked: 0
