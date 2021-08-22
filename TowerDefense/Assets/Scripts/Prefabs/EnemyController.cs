@@ -58,4 +58,10 @@ public class EnemyController : MonoBehaviour
         if(collision.gameObject.tag == "Bullet")
             enemyHealth -= 30;
     }
+
+    private void OnMouseOver()
+    {
+        if (Input.GetMouseButton(0))
+            enemyHealth -= 45;
+    }
 }

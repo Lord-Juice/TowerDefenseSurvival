@@ -8,6 +8,8 @@ TagManager:
   - Axe
   - Bullet
   - Enemy
+  - Crate
+  - Tree
   layers:
   - Default
   - TransparentFX
@@ -62,4 +64,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3370199549
+    locked: 0
+  - name: WorldUI
+    uniqueID: 603013061
     locked: 0

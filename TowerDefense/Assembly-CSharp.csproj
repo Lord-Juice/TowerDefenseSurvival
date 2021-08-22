@@ -57,19 +57,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player\TopDownPlayerController.cs" />
+    <Compile Include="Assets\Scripts\Player\Turning.cs" />
     <Compile Include="Assets\Scripts\Prefabs\TreeSpawning.cs" />
     <Compile Include="Assets\Scripts\Prefabs\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\UI\UICrates.cs" />
     <Compile Include="Assets\Scripts\Prefabs\TreeHP.cs" />
     <Compile Include="Assets\Scripts\Player\SpawnCrates.cs" />
     <Compile Include="Assets\Scripts\Prefabs\SpawnEnemies.cs" />
+    <Compile Include="Assets\Scripts\UI\UICreateHealth.cs" />
     <Compile Include="Assets\Scripts\Prefabs\CrateHP.cs" />
-    <Compile Include="Assets\Scripts\UI\UIHealth.cs" />
-    <Compile Include="Assets\Scripts\UI\UICrates.cs" />
     <Compile Include="Assets\Scripts\UI\UIKillCount.cs" />
-    <Compile Include="Assets\Scripts\Prefabs\Bullet.cs" />
     <Compile Include="Assets\Scripts\Player\Shooting.cs" />
-    <Compile Include="Assets\Scripts\Player\Turning.cs" />
-    <Compile Include="Assets\Scripts\Player\SwitchWeapons.cs" />
+    <Compile Include="Assets\Scripts\UI\UIHealth.cs" />
+    <Compile Include="Assets\Scripts\Prefabs\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Prefabs\cannonController.cs" />
+    <Compile Include="Assets\Scripts\Prefabs\teleportCheck.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

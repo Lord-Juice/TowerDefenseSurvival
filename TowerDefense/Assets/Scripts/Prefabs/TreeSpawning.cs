@@ -18,7 +18,10 @@ public class TreeSpawning : MonoBehaviour
             Spawnrange = new Vector3(transform.position.x + Random.Range(-TreeRange, TreeRange),
                                  transform.position.y + Random.Range(-TreeRange, TreeRange),
                                  0f);
-            Instantiate(Tree, Spawnrange, Quaternion.identity);
+            GameObject spawnedTree = Instantiate(Tree, Spawnrange, Quaternion.identity);
+            spawnedTree.transform.position = new Vector3(Mathf.Round(spawnedTree.transform.position.x),
+                                                         Mathf.Round(spawnedTree.transform.position.y),
+                                                         Mathf.Round(spawnedTree.transform.position.z));
         }
     }
 
@@ -31,7 +34,10 @@ public class TreeSpawning : MonoBehaviour
         if(treeTimer == treeSpawnRate)
         {
             treeTimer = 0;
-            Instantiate(Tree, Spawnrange, Quaternion.identity);
+            GameObject spawnedTree = Instantiate(Tree, Spawnrange, Quaternion.identity);
+            spawnedTree.transform.position = new Vector3(Mathf.Round(spawnedTree.transform.position.x),
+                                                         Mathf.Round(spawnedTree.transform.position.y),
+                                                         Mathf.Round(spawnedTree.transform.position.z));
         }
             
     }

@@ -15,8 +15,7 @@ public class TreeHP : MonoBehaviour
     private GameObject player;
     private TopDownPlayerController controller;
     private SpawnCrates SpawnCrates;
-    private GameObject[] items;
-    private float curItem;
+    private Collider[] colliders;
 
     private void Start()
     {
@@ -28,7 +27,7 @@ public class TreeHP : MonoBehaviour
     }
 
     private void FixedUpdate()
-    {
+    {       
         if (treeHealth == 0)
         {
             Destroy(gameObject);
@@ -42,13 +41,11 @@ public class TreeHP : MonoBehaviour
             inRange = true;
         else
             inRange = false;
-
-        curItem = GameObject.Find("Turning Point").GetComponent<SwitchWeapons>().curItem;
     }
 
     private void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(0) && inRange && curItem == 0)
+        if (Input.GetMouseButtonDown(0) && inRange)
         {
             treeHealth -= 50;
         }
